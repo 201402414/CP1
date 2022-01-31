@@ -7,7 +7,7 @@ public class H02 {
 		int a=0;
 		String s;
 		Scanner input = new Scanner(System.in);
-		System.out.print("���ڸ� �Է��Ͻÿ� :");
+		System.out.print("¹®ÀÚ¸¦ ÀÔ·ÂÇÏ½Ã¿À :");
 		s = input.nextLine();
 		for(int i = 0 ; i < s.length(); i++) {
 		a = s.charAt(i);
