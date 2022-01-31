@@ -8,7 +8,7 @@ public class H01 {
 		int a;
 		int count=0, counta =0;
 		String s;
-		System.out.print("¹®ÀÚ¸¦ ÀÔ·ÂÇÏ½Ã¿À. :");
+		System.out.print("ë¬¸ìë¥¼ ì…ë ¥í•˜ì‹œì˜¤. :");
 		s = input.nextLine();
 		for(int i = 0; i < s.length(); i++) {
 		a = (int)s.charAt(i);
@@ -29,8 +29,8 @@ public class H01 {
 			}
 		}
 		}
-		System.out.println("ÀÚÀ½ÀÇ °³¼ö :" + count);
-		System.out.println("¸ğÀ½ÀÇ °³¼ö :" + counta);
+		System.out.println("ììŒì˜ ê°œìˆ˜ :" + count);
+		System.out.println("ëª¨ìŒì˜ ê°œìˆ˜ :" + counta);
 	}
 
 }
