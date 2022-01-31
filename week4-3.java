@@ -5,7 +5,7 @@ class Date {
 	int year, month=0, date;
 	String month1;
 	void printEastern() {
-		System.out.printf("µ¿¾ç½Ä ³¯ÀÚ Ç¥Çö : %d.%d.%d\n",year,month,date);
+		System.out.printf("ë™ì–‘ì‹ ë‚ ì í‘œí˜„ : %d.%d.%d\n",year,month,date);
 	}
 	
 	void printWestern() {
@@ -36,7 +36,7 @@ class Date {
 		month1 = "December";
 		
 	}
-		System.out.printf("¼­¾ç½Ä ³¯ÀÚ Ç¥Çö : %S %d, %d",month1,date,year);
+		System.out.printf("ì„œì–‘ì‹ ë‚ ì í‘œí˜„ : %S %d, %d",month1,date,year);
 	}
 	
 }
@@ -48,11 +48,11 @@ public class H03 {
 		// TODO Auto-generated method stub
 		Scanner input = new Scanner(System.in);
 		Date test = new Date();
-		System.out.print("¿¬µµ ÀÔ·Â : ");
+		System.out.print("ì—°ë„ ì…ë ¥ : ");
 		test.year = input.nextInt();
-		System.out.print("¿ù ÀÔ·Â  : ");
+		System.out.print("ì›” ì…ë ¥  : ");
 		test.month = input.nextInt();
-		System.out.print("ÀÏ ÀÔ·Â : ");
+		System.out.print("ì¼ ì…ë ¥ : ");
 		test.date = input.nextInt();
 		
 		
