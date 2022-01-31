@@ -6,7 +6,7 @@ public class H02 {
 		// TODO Auto-generated method stub
 		Scanner input = new Scanner(System.in);
 		String a;
-		System.out.println("¹®ÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä :");
+		System.out.println("ë¬¸ìë¥¼ ì…ë ¥í•˜ì„¸ìš” :");
 		a = input.nextLine();
 		
 	
@@ -14,7 +14,7 @@ public class H02 {
 		
 		case "a": case "i": case "e": case "o": case "u":
 		case "A": case "I": case "E": case "O": case "U":
-		System.out.println("¸ğÀ½ÀÔ´Ï´Ù.");
+		System.out.println("ëª¨ìŒì…ë‹ˆë‹¤.");
 		break;
 		
 		case "b": case "B": case "c": case "C": case "d": case "D":
@@ -24,11 +24,11 @@ public class H02 {
 		case "q": case "Q": case "r": case "R": case "s": case "S":
 		case "t": case "T": case "v": case "V": case "w": case "W":
 		case "x": case "X":	case "y": case "Y": case "z": case "Z":		
-		System.out.println("ÀÚÀ½ÀÔ´Ï´Ù.");
+		System.out.println("ììŒì…ë‹ˆë‹¤.");
 		break;
 		
 		default:
-		System.out.println("Àß¸ø ÀÔ·Â");
+		System.out.println("ì˜ëª» ì…ë ¥");
 		}
 		
 		
