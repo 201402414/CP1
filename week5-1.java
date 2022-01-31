@@ -25,8 +25,8 @@ public class H01 {
 			if (min > a[k])
 				min = a[k];
 		
-		System.out.println("10°³ÀÇ ¼ö Áß °¡Àå Å« ¼ıÀÚ : " + max);
-		System.out.println("10°³ÀÇ ¼ö Áß °¡Àå ÀÛÀº ¼ıÀÚ : " + min);
+		System.out.println("10ê°œì˜ ìˆ˜ ì¤‘ ê°€ì¥ í° ìˆ«ì : " + max);
+		System.out.println("10ê°œì˜ ìˆ˜ ì¤‘ ê°€ì¥ ì‘ì€ ìˆ«ì : " + min);
 	}
 
 }
